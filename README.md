@@ -49,24 +49,17 @@ Ao inserir os dados e apertar o botão "Entrar", o codigo lhe trará um alert na
 No js.js temos as funções que retornarão os alertas quando os dados forem inseridos e enviados e quando os links forem clicados.
 
 
-   ("  function onClickCadastrar (){
+      function onClickCadastrar (){
+          alert("Para se cadastrar, ligue: 0500-2022");
+       }
+          
+      function onClickChave(){
+         alert("Para redefinir a senha, ligue: 0800-2022");
+      }
 
-     alert("Para se cadastrar, ligue: 0500-2022");
-
-    }
-
-
-    function onClickChave(){
-
- alert("Para redefinir a senha, ligue: 0800-2022");
-
- }
-
-   function onClickHelp(){
-
- alert("Para saber mais, ligue para central: (27) 3780-2832")
-
- }
+      function onClickHelp({
+         alert("Para saber mais, ligue para central: (27) 3780-2832")
+      }
  
  
  
