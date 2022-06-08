@@ -73,31 +73,31 @@ No js.js temos as funções que retornarão os alertas quando os dados forem ins
  
  No style.css foram configurados o layout da caixa de Login e tambem a fotografia no fundo do site.
  
- * {
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-  }
+ *  { 
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+   }
   
-  body {
-      width: 100%;
-      height: 100%;
-      background-image: url("bandeiraucrania.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
+   body { 
+       width: 100%;
+       height: 100%;
+       background-image: url("bandeiraucrania.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
       
-  }
+   }
   
-  .page-login {
-      background-color: #0176fce6;
-      width: 300px;
-      margin: 200px auto;
-      text-align: center;
-      padding: 20px;
-      color: #eed704;
-      border-radius: 15px;
-  }
+   .page-login {
+       background-color: #0176fce6;
+       width: 300px;
+       margin: 200px auto;
+       text-align: center;
+       padding: 20px;
+       color: #eed704;
+       border-radius: 15px;
+   }
   
   .corpo-login {
       display: block;
@@ -106,12 +106,12 @@ No js.js temos as funções que retornarão os alertas quando os dados forem ins
       height: 30px;
   }
   
-  .btn-login {
-      display: block;
-      margin: 10px auto;
-      width: 250px;
-      height: 30px;
-      color: black;
-      background-color: #eed704;
-  }
+   .btn-login {
+       display: block;
+       margin: 10px auto;
+       width: 250px;
+       height: 30px;
+       color: black;
+       background-color: #eed704;
+   }
 
