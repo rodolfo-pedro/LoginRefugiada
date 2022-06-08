@@ -13,16 +13,6 @@ No index.html temos a entrada de dados com os inputs e o botão para enviar o co
         <input class="corpo-login" type="text" placeholder="Login" id="login">
         <input class="corpo-login" type="password" placeholder="Senha" id="senha">
         <button class="btn-login" type="submit" onclick="logar()">Enviar</button>")
-
-
-
-Logo abaixo em "Cadastre-se", "Esqueceu a senha?", "Ajuda?" foi feito um link que quando clicado, retornará um alerta com mensagens de ajuda.
-
-    (" <a class="linkar-login" onclick="onClickCadastrar()">Cadastre-se</a>
-    <br><br>
-    <a class="linkar-login" onclick="onClickChave()">Esqueceu a senha?</a>
-    <br><br>
-    <a class="linkar-login" onclick="onClickHelp()">Ajuda?</a> ")
     
     
 
@@ -42,6 +32,15 @@ Ao inserir os dados e apertar o botão "Entrar", o codigo lhe trará um alert na
      }")
 
 
+
+
+Logo abaixo em "Cadastre-se", "Esqueceu a senha?", "Ajuda?" foi feito um link que quando clicado, retornará um alerta com mensagens de ajuda.
+
+    (" <a class="linkar-login" onclick="onClickCadastrar()">Cadastre-se</a>
+    <br><br>
+    <a class="linkar-login" onclick="onClickChave()">Esqueceu a senha?</a>
+    <br><br>
+    <a class="linkar-login" onclick="onClickHelp()">Ajuda?</a> ")
 
 
 
