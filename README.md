@@ -65,10 +65,7 @@ No js.js temos as funções que retornarão os alertas quando os dados forem ins
  
  No style.css foram configurados o layout da caixa de Login e tambem a fotografia no fundo do site.
  
-   { 
-     box-sizing: border-box;
-     font-family: 'Montserrat', sans-serif;
-   }
+  
   
    body { 
        width: 100%;
