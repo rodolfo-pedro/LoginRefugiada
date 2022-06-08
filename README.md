@@ -31,9 +31,9 @@ Logo abaixo em "Cadastre-se", "Esqueceu a senha?", "Ajuda?" foi feito um link qu
 
 Ao inserir os dados e apertar o botão "Entrar", o codigo lhe trará um alert na pagina dando boas-vindas, caso o login e senha forem diferentes, ele irá exibir um alerta com mensagem de erro.
 
-   ("   function logar() {
-          var login = document.getElementById('login').value;
-          var senha = document.getElementById('senha').value;
+       ("   function logar() {
+             var login = document.getElementById('login').value;
+             var senha = document.getElementById('senha').value;
 
         if (login == "admin" && senha == "admin") {
          alert("Bem Vinda, Anfitriã");
