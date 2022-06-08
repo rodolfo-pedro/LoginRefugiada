@@ -10,7 +10,7 @@ Senha: admin
 
 No index.html temos a entrada de dados com os inputs e o botão para enviar o comando para o js.js
 
-        &<input class="corpo-login" type="text" placeholder="Login" id="login">
+        <input class="corpo-login" type="text" placeholder="Login" id="login">
         <input class="corpo-login" type="password" placeholder="Senha" id="senha">
         <button class="btn-login" type="submit" onclick="logar()">Enviar</button>")
 
@@ -29,7 +29,7 @@ Logo abaixo em "Cadastre-se", "Esqueceu a senha?", "Ajuda?" foi feito um link qu
 
 
 
-Ao inserir os dados e apertar o botão "Entrar", o codigo lhe trará um alert na pagina dando boas-vindas caso o login e senha forem diferentes, ele irá exibir um alerta com mensagem de erro.
+Ao inserir os dados e apertar o botão "Entrar", o codigo lhe trará um alert na pagina dando boas-vindas, caso o login e senha forem diferentes, ele irá exibir um alerta com mensagem de erro.
 
    ("   function logar() {
           var login = document.getElementById('login').value;
